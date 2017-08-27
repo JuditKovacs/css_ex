@@ -3,35 +3,68 @@ html {
     padding : 0;
     height : 100%;
     width : 100%;
+
+
 }
-header h1{
-    background-image: url(cwork.jpeg);
+.extra1{
+    background-image: url(https://static.wixstatic.com/media/bc5413_6e8ec89549ac4e0c92b65e5594e62613.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clip-path: inset(20% 0 0% 0);
+}
+
+
+.intro{
+    font-family: Gabriele Dark Ribbon FG, Ariel;
     position: center;
     position: top;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    font-family: Gabriele Dark Ribbon FG, Ariel;
+}
+h3{
+    text-align: center;
+    font-family: Gabriele Dark Ribbon FG, Ariel;
+
 }
 
 
+p{
+    text-align: center;
+    font-family: Gabriele Dark Ribbon FG, Ariel;
+}
+
+a:link {
+    font-weight : bold;
+    font-family: Type Keys, Ariel;
+    color : #075E7B;
+    text-decoration : none;
+}
 .page-wrapper {
-    background-image: url(main_paper.jpg);
-    background-size: contain;
+    background-image: url(page.jpg);
+    background-size: cover;
     background-blend-mode: multiply;
     width : 550px;
     margin-right : auto;
     margin-left : auto;
-    margin-top : 20px;
-    padding-top: 40px;
+    margin-top : 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     z-index : 4;
     position : relative;
 }
 .sidebar {
-    background-image : url(paper.jpg);
-    background-repeat : repeat-y;
-    background-position : top;
+    background-image : url(page.jpg);
+    background-size: cover;
     width : 300px;
     position : absolute;
     top : 300px;
     margin-left : 600px;
-    font-family : Georgia, "Times New Roman", Times, serif;
+    font-family : Gabriele Dark Ribbon FG,Ariel;
     font-size : 1em;
 }
 .sidebar ul {
@@ -42,7 +75,11 @@ header h1{
     list-style-position : outside;
 
 }
-.sidebar li {
-    line-height : 120%;
-    margin-right: 20px;
+footer {
+  padding: 0.8rem;
+  background-image : url(page.jpg);
+  margin-left: 600px;
+  width: 275px;
+  position: absolute;
+  top: 1500px;
 }
