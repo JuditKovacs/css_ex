@@ -3,14 +3,15 @@ html {
     padding : 0;
     height : 100%;
     width : 100%;
-
-
+    background-image:
 }
-.extra1{
-    background-image: url(https://static.wixstatic.com/media/bc5413_6e8ec89549ac4e0c92b65e5594e62613.gif);
+body{
+    background-image: url(ship.gif);
+    background-position: top;
+    background-position: center,;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100%;
-    clip-path: inset(20% 0 0% 0);
+    background-color: #3E2513;
 }
 
 
@@ -47,23 +48,25 @@ a:link {
 .page-wrapper {
     background-image: url(page.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
-    width : 550px;
+    background-blend-mode: lighten;
+    width : 650px;
     margin-right : auto;
     margin-left : auto;
-    margin-top : 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top : 640px;
     padding-top: 20px;
     padding-bottom: 20px;
-    z-index : 4;
-    position : relative;
+    z-index:auto;
+    position : center;
 }
 .sidebar {
     background-image : url(page.jpg);
     background-size: cover;
     width : 300px;
     position : absolute;
-    top : 300px;
-    margin-left : 600px;
+    top : 740px;
+    margin-left : 700px;
     font-family : Gabriele Dark Ribbon FG,Ariel;
     font-size : 1em;
 }
@@ -78,8 +81,11 @@ a:link {
 footer {
   padding: 0.8rem;
   background-image : url(page.jpg);
-  margin-left: 600px;
+  margin-left: 700px;
   width: 275px;
   position: absolute;
-  top: 1500px;
+  top: 1900px;
+}
+.extra2{
+    background-repeat: repeat;
 }
